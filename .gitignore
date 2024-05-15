@@ -2,5 +2,6 @@
 
 !.gitignore
 !nvim/
+!nvim/**/*
 !tmux/tmux.conf
 !README.md
