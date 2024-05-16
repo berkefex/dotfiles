@@ -21,6 +21,13 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.coding.copilot" },
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     { import = "plugins" },
+    {
+      "windwp/nvim-autopairs",
+      event = "InsertEnter",
+      config = true,
+      -- use opts = {} for passing setup options
+      -- this is equalent to setup({}) function
+    },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
