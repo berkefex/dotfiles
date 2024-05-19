@@ -26,3 +26,6 @@ keymap.set("n", "<C-S-l>", "<C-w>>")
 -- tree
 keymap.set("n", "<Leader>b", ":NvimTreeToggle<Return>", opts)
 keymap.set("n", "<Leader>f", ":NvimTreeFindFile<Return>", opts)
+
+-- line
+keymap.set("n", "<C-z>", ":set wrap<Return>", opts)
