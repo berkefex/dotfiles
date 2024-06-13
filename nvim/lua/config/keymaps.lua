@@ -18,10 +18,10 @@ keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sl", "<C-w>l")
 
 -- resize window
-keymap.set("n", "<C-S-h>", "<C-w><")
-keymap.set("n", "<C-S-j>", "<C-w>-")
-keymap.set("n", "<C-S-k>", "<C-w>+")
-keymap.set("n", "<C-S-l>", "<C-w>>")
+keymap.set("n", "<A-h>", "<C-w><")
+keymap.set("n", "<A-j>", "<C-w>-")
+keymap.set("n", "<A-k>", "<C-w>+")
+keymap.set("n", "<C-w-l>", "<C-w>>")
 
 -- tree
 keymap.set("n", "<Leader>b", ":NvimTreeToggle<Return>", opts)
@@ -29,3 +29,6 @@ keymap.set("n", "<Leader>f", ":NvimTreeFindFile<Return>", opts)
 
 -- line
 keymap.set("n", "<C-z>", ":set wrap<Return>", opts)
+
+-- diagnostics
+keymap.set("n", "<C-e>", ":lua vim.diagnostic.open_float()<Return>", opts)

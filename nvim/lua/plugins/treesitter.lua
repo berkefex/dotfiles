@@ -15,6 +15,7 @@ return {
         "sql",
         "vim",
         "lua",
+        "svelte",
       },
       query_linter = {
         enable = true,
