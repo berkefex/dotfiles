@@ -1,6 +1,7 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.svelte"
   ],
   "news": {
     "NEWS.md": "6077"
