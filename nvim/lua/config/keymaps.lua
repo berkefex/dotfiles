@@ -32,3 +32,6 @@ keymap.set("n", "<C-z>", ":set wrap<Return>", opts)
 
 -- diagnostics
 keymap.set("n", "<C-e>", ":lua vim.diagnostic.open_float()<Return>", opts)
+
+-- disable recording
+keymap.set("n", "q", "<Nop>", opts)
